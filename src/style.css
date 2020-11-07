@@ -208,3 +208,91 @@ a
 {
     font-size: 14px;
 }
+
+.reviews
+{
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    width: 69%;
+}
+
+.rating
+{
+    display: flex;
+    background-color: #EFEFEF;
+    padding: 15px 0;
+    justify-content: start;
+}
+
+.rating > i
+{
+    background-color: green;
+    font-size: 27px;
+    color:white;
+    padding: 10px 15px;
+    border-radius: 40px;
+    margin: 0 30px;
+}
+
+.user-rating
+{
+    font-size: 40px !important;
+}
+
+.user-rating:hover
+{
+    color:orange;
+    font-size: 44px !important;
+}
+
+.user-review
+{
+    padding: 15px;
+}
+
+.user-review-left
+{
+    padding: 10px;
+    width: 40%;
+}
+
+.user-profile
+{
+    border-radius: 50px !important;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.user-name
+{
+    position: relative;
+    top:-10px;
+}
+
+.date
+{
+    float: right;
+    position: relative;
+    top:10px;
+    font-size: 12px;
+}
+
+.rating-sec
+{
+    display: flex;
+}
+
+.user-comment
+{
+    font-size: 14px;
+    color: gray;
+}
+
+.helpful-btn
+{
+    margin-top: 80px;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-right: 20px;
+}
