@@ -1,0 +1,210 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body
+{
+    background-color: #EFEFEF;
+    
+}
+
+.background
+{
+    background-color: #2A51BC;
+    height: 355px;
+    padding-top: 40px;
+}
+
+.body
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.business-card
+{
+    background-color: white;
+    min-height: 235px;
+    padding: 19px 20px;
+    /* position: relative;
+    top:120px; */
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+a
+{
+    text-decoration: none !important;
+    font-size: 16px;;
+    color:#2A51BC;
+}
+
+.checked
+{
+    color:orange
+}
+
+.container
+{
+    display:flex;
+    justify-content: space-between;
+}
+
+#closed
+{
+    color:red !important;
+    margin-top: 10px;;
+    text-transform: uppercase;
+}
+
+
+
+
+#number
+{
+    background-color: black;
+    color:white;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    top:-10px;
+}
+
+.count > p
+{
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+.right
+{
+    text-align: right;
+}
+
+#phone
+{
+    font-size: 24px;
+}
+
+#map-button
+{
+    padding: 5px 20px;
+    background-color: #D2F0F5;
+    margin-top: 20px !important;
+    border:2px solid #aadbe4
+}
+
+.link
+{
+    padding-top: 10px;
+}
+
+.link > a
+{
+    color:#2A51BC !important;
+    margin-right: 20px ;
+}
+
+.main
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.main-left
+{
+    width: 69%;
+}
+
+.main-left > #contact-note
+{
+    background-color: #EE9893;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.main-right
+{
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+}
+
+.item-name
+{
+    font-size: 14px;
+}
+
+.price
+{
+    float: right;
+}
+
+.web-description
+{
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.nav-link
+{
+    list-style: none;
+}
+
+.nav-item
+{
+    display: inline-block;
+    padding: 10px 10px 10px 0;
+}
+
+.active
+{
+    border-bottom:2px solid orange ;
+}
+
+#add-new-photo
+{
+    margin-top: 20px;
+}
+
+#photo-button
+{
+    padding: 5px 10px;
+    background-color: #aadbe4;
+}
+
+.description
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.description-detail
+{
+    width: 80%;
+    color:gray;
+    font-size: 14px;
+}
+
+.description-detail a
+{
+    font-size: 14px;
+
+}
+
+.title
+{
+    font-size: 14px;
+}
