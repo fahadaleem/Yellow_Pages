@@ -22,7 +22,7 @@ body
 
 .body
 {
-    width: 80%;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -295,4 +295,26 @@ a
     padding: 0 20px;
     font-size: 18px;
     margin-right: 20px;
+}
+
+.scroll-link
+{
+    width: 100% !important;
+    position: fixed;
+    left: 0;
+    top:0;
+    padding-left: 150px;
+    font-size: 24px !important;
+    background-color: white;
+    padding-right: 150px;
+}
+
+.scroll-link li
+{
+    background-color: white !important;
+}
+
+.d-none
+{
+    display: none;
 }
